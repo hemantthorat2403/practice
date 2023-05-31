@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <title>My Mobile APP</title>
+</head>
+<body>
+
+    <div data-role="page" id="home">
+        <div data-role="header">
+            <h1>Welcome to home !</h1>
+        </div>
+
+        <div data-role="content">
+            <h5>Content of home !</h5>
+            <ul data-role="listview" data-inset="true">
+                <li><a href="#">Item no 1</a></li>
+                <li><a href="#">Item no 2</a></li>
+                <li><a href="#">Item no 3</a></li>
+            </ul>
+
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name">
+                <label for="email">Email Id:</label>
+                <input type="email" name="email" id="email">
+                <label for="message">Message</label>
+                <textarea name="message" id="message" cols="30" rows="10"></textarea>
+            </form>
+
+            <a href="#submit" data-role="button">Submit !</a>
+            <a href="#about" data-role="button">about us !</a>
+
+            <div data-role="footer">
+                <h1>&copy; Hemant Enterprises !</h1>
+            </div>
+
+        </div>
+        </div>
+
+        <!--Submit page-->
+        
+        <div data-role="page" id="submit">
+            <div data-role="header">
+                <h1>Thanx for submitting !</h1>
+            </div>
+
+            <div data-role="content">
+                <h3>Helo submitter !</h3>
+                <a href="#home" data-role="button">Go to home !</a>
+            </div>
+
+            <div data-role="footer">
+                <h1>&copy; Hemant Enterprises !</h1>
+            </div>
+
+        </div>
+
+         <!-- about page-->
+        
+         <div data-role="page" id="about">
+            <div data-role="header">
+                <h1>Welcome to about section !</h1>
+            </div>
+
+            <div data-role="content">
+                <h3>we are the future !</h3>
+                <a href="#home" data-role="button">Go to home !</a>
+            </div>
+
+            <div data-role="footer">
+                <h1>&copy; Hemant Enterprises !</h1>
+            </div>
+
+        </div>
+
+
+    
+</body>
+</html>

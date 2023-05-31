@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    
+    <title> My JQ Page </title>
+</head>
+<body>
+    <div data-role="page" id="home">
+        <div data-role="header">
+            <h1>Welcome to my mobile website !</h1>
+        </div>
+        <div data-role="content">
+            <p>This is the home page !</p>
+            <ul data-role="listview" data-inset="true">
+                <li><a href="#">List item 1</a></li>
+                <li><a href="#">List item 2</a></li>
+                <li><a href="#">List item 3</a></li>
+            </ul>
+
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name">
+                <label for="email">Email Id:</label>
+                <input type="email" name="email" id="email">
+                <label for="message">Message</label>
+                <textarea name="message" id="message" cols="30" rows="10"></textarea>
+            </form>
+
+            <a href="#submit" data-role="button">Submit Here</a>
+            <a href="#about" data-role="button">About us !</a>
+        </div>
+    </div>
+
+    <!-- submit page : -->
+    <div data-role="page" id="submit">
+        <div data-role="header">
+            <h1>Thank u for applying !</h1>
+        </div>
+        <div data-role="content">
+            <p>Welcome to mobile development duniya !</p>
+            <a href="#home" data-role="button">Go-to-home !</a>
+        </div>
+        <div data-role="footer">
+            <h4>&copy; Hemant Softwares !</h4>
+        </div>
+    </div>
+
+     <!-- about us page -->
+     <div data-role="page" id="about">
+        <div data-role="header">
+            <h1>About Ourselves!</h1>
+        </div>
+        <div data-role="content">
+            <p>Welcome to mobile development duniya !</p>
+            <a href="#home" data-role="button">Go-to-home !</a>
+        </div>
+        <div data-role="footer">
+            <h4>&copy; Hemant Softwares !</h4>
+        </div>
+    </div>
+    
+</body>
+</html>

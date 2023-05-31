@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Buttons jQuery Mobile</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.1.0/jquery.mobile-
+1.1.0.min.css" />
+
+<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.1.0/jquery.mobile-1.1.0.min.js"></script>
+</head>
+<body>
+<div data-role="page">
+<div data-role="header">
+<h1>Buttons</h1>
+</div>
+<div data-role="content">
+<button type="button">Button</button>
+<input type="submit" value="Submit" />
+<input type="reset" value="Reset" />
+<a href="#" data-role="button" data-inline="true">Cancel</a>
+<a href="#" data-role="button" data-inline="true" data-mini="true">Save</a>
+<a href="#" data-role="button" data-inline="true" data-theme="e"> Theme a </a>
+<!-- data theme values can be a,b,c,d,e,f,g -->
+
+<!-- by default vartical grouping-->
+<div data-role="controlgroup" data-type="horizontal">
+<a href="#" data-role="button">Yes</a>
+<a href="#" data-role="button">No</a>
+<a href="#" data-role="button">Maybe</a>
+</div>
+<!-- ICONS -->
+<a href="#" data-role="button" data-icon="delete">Delete</a>
+<!-- data icon values can be plus, minus, check, gear, refresh, grid, star, alert, home,
+search,action-->
+<a href="#" data-role="button" data-icon="arrow-d">Delete</a>
+<!-- arrow-r, arrow-l, arrow-u, arrow-d -->
+<a href="#" data-role="button" data-icon="delete" data-iconpos="notext">Delete</a>
+<!-- icon position values can be right, left, bottom, notext -->
+<a href="#" class="ui-btn ui-shadow ui-corner-all"> without data attribute </a>
+
+<!-- Radio Buttons -->
+<input type="radio" id="radio1">
+<label for="radio1">Computer Engg</label>
+<input type="radio" id="radio2">
+<label for="radio2"> IT </label>
+<input type="radio" id="radio3">
+<label for="radio3"> Mechanical </label>
+<!-------- Checkbox------->
+<input type="checkbox" id="check1">
+<label for="check1">Computer Engg</label>
+<input type="checkbox" id="check2">
+<label for="check2"> IT </label>
+<input type="checkbox" id="check3">
+<label for="check3"> Mechanical </label>
+
+</div>
+</div>
+</body>
+</html>
